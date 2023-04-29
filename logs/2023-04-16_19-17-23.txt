@@ -1,0 +1,47 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3 21.3M    3  847k    0     0  1022k      0  0:00:21 --:--:--  0:00:21 1021k100 21.3M  100 21.3M    0     0  13.9M      0  0:00:01  0:00:01 --:--:-- 13.9M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 3s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New major version of npm available! 8.15.0 -> 9.6.4
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.4>
+npm notice Run `npm install -g npm@9.6.4` to update!
+npm notice 
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 14 packages, and audited 291 packages in 3s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (4 moderate, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+/home/minecraft/multicraft/servers/server459623/app.js:55
+      name: `/help on ${client.guilds.cache.size} servers!`,
+                        ^
+
+ReferenceError: client is not defined
+    at Object.<anonymous> (/home/minecraft/multicraft/servers/server459623/app.js:55:25)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
